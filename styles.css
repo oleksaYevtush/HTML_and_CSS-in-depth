@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(255, 246, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem, 3rem, 5%, 5%;
+    padding: 0.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(249, 185, 108);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(33, 26, 70);
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(31 147 137);
+    border: inset rgb(127 252 221);
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a:link, a:visited {
+    color: rgb(185, 209, 222);
+}
+
+a:hover {
+    color: rgb(159, 159, 159);
+}
+
+a:active {
+    color: rgb(121, 121, 163);
+}
+
+section {
+    display: flex;
+    margin-top: 1rem;
+}
+
+article {
+    flex: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(242 217 161);
+    border-radius: 0.75rem;
+    color: rgb(31, 12, 83);
+    transition: 0.5s;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.main-article {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(images/desert-garden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(237, 193, 179);
+    font-weight: bold;
+}
+
+article:hover {
+    box-shadow: 5px 10px 20px rgb(0, 0, 0);
+    transform: scale(105%);
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article {
+    font-size: 0.70rem;
+    word-wrap: break-word;
+}
+
+.hours {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    padding: 0.5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    border: inset rgb(60, 79, 146) 0.2rem;
+    border-radius: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background-color: rgb(223, 190, 130);
+}
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: right;
+    border-top: solid rgb(205, 75, 46) 0.1rem;
+}
